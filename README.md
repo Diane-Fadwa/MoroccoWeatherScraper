@@ -34,13 +34,17 @@ source venv/bin/activate
 
 python -m venv venv
 venv\Scripts\activate
+
 3️⃣ Installer les dépendances
 Le script utilise plusieurs bibliothèques Python :
 
 selenium : automatisation du navigateur
+
 beautifulsoup4 : parsing HTML
+
 pandas : manipulation de données
-chromedriver-autoinstaller : gestion du driver Chrome
+
+chromedriver-autoinstaller : gestion du driverChrome
 
 Installez-les avec :
 pip install -r requirement.txt
@@ -48,15 +52,15 @@ pip install -r requirement.txt
 🚀 Utilisation du Scraper
 
 Lancez le script Python pour commencer le scraping des données :
-python eswd1.py
+python3 eswd1.py
 
 Le fichier CSV généré (morocco_weather_events_VF1.csv) sera enregistré dans le dossier du projet.
 
-🔧 Personnalisation
+🔧 Personnalisation : Modifier la période
 
-Modifier la période
 Par défaut, le script collecte les données de 2000 à 2024.
 Vous pouvez changer ces valeurs dans :
+
 scraper.scrape_data(2005, 2015) 
 
 🛠 Dépannage
@@ -67,8 +71,14 @@ Vérifiez que ChromeDriver est bien installé et accessible :
 chromedriver --version
 Si l'erreur persiste, ajoutez le chemin absolu :
 
-self.driver = webdriver.Chrome(executable_path="CHEMIN_VERS_CHROMEDRIVER", options=chrome_options)
+self.driver = webdriver.Chrome
+
+(executable_path="CHEMIN_VERS_CHROMEDRIVER", options=chrome_options)
+
 2️⃣ Aucune donnée récupérée
-Vérifiez votre connexion Internet.
-Testez manuellement l’URL dans un navigateur : https://eswd.eu/cgi-bin/eswd.cgi
-Assurez-vous que le site n'a pas changé sa structure HTML.
+
+✔️ Vérifiez votre connexion Internet.
+
+✔️ Testez manuellement l’URL dans un navigateur : https://eswd.eu/cgi-bin/eswd.cgi
+
+✔️ Assurez-vous que le site n'a pas changé sa structure HTML.
