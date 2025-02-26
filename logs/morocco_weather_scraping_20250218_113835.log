@@ -1,0 +1,27 @@
+2025-02-18 11:38:35,279 - INFO - ====== WebDriver manager ======
+2025-02-18 11:38:35,424 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18 11:38:35,537 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18 11:38:35,661 - INFO - Driver [/Users/macbook/.wdm/drivers/chromedriver/mac64/133.0.6943.98/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-18 11:38:37,107 - INFO - WebDriver setup successful
+2025-02-18 11:38:37,107 - INFO - Attempting to open URL: https://eswd.eu/cgi-bin/eswd.cgi
+2025-02-18 11:38:58,792 - ERROR - Error navigating to website: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001032cebac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x00000001032c720c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000102e2dafc cxxbridge1$string$len + 93348
+3   chromedriver                        0x0000000102e748f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x0000000102eb5b94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x0000000102e68ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x0000000103297664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x000000010329a978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x000000010327cd04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x000000010329b220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x000000010326dcec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x00000001032b78d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x00000001032b7a5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x00000001032c6e80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019fb06f94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019fb01d34 thread_start + 8
+
+2025-02-18 11:38:58,794 - ERROR - Current URL: https://eswd.eu/cgi-bin/eswd.cgi
+2025-02-18 11:38:58,794 - ERROR - Major error occurred: Failed to navigate to site

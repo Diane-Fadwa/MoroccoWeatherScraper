@@ -1,0 +1,32 @@
+2025-02-18 11:32:05,882 - INFO - ====== WebDriver manager ======
+2025-02-18 11:32:06,249 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18 11:32:06,373 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18 11:32:06,481 - INFO - There is no [mac64] chromedriver "133.0.6943.98" for browser google-chrome "133.0.6943" in cache
+2025-02-18 11:32:06,489 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18 11:32:06,744 - INFO - WebDriver version 133.0.6943.98 selected
+2025-02-18 11:32:06,745 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.98/mac-arm64/chromedriver-mac-arm64.zip
+2025-02-18 11:32:06,746 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.98/mac-arm64/chromedriver-mac-arm64.zip
+2025-02-18 11:32:06,891 - INFO - Driver downloading response is 200
+2025-02-18 11:32:07,655 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18 11:32:07,854 - INFO - Driver has been saved in cache [/Users/macbook/.wdm/drivers/chromedriver/mac64/133.0.6943.98]
+2025-02-18 11:32:09,530 - INFO - WebDriver setup successful
+2025-02-18 11:32:21,020 - ERROR - Error navigating to website: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100b2abac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x0000000100b2320c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000100689afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x00000001006d08f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x0000000100711b94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x00000001006c4ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x0000000100af3664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x0000000100af6978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x0000000100ad8d04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x0000000100af7220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x0000000100ac9cec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x0000000100b138d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x0000000100b13a5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x0000000100b22e80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019fb06f94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019fb01d34 thread_start + 8
+
+2025-02-18 11:32:21,021 - ERROR - Major error occurred: Failed to navigate to site

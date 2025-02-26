@@ -1,0 +1,18 @@
+2025-02-18 11:50:33,747 - INFO - ====== WebDriver manager ======
+2025-02-18 11:50:33,903 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18 11:50:34,020 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18 11:50:34,124 - INFO - Driver [/Users/macbook/.wdm/drivers/chromedriver/mac64/133.0.6943.98/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-18 11:50:35,484 - INFO - WebDriver setup successful
+2025-02-18 11:50:35,484 - INFO - Scraping period from 2000-01-01 to 2000-01-31
+2025-02-18 11:50:36,097 - INFO - Attempt 1 to navigate to https://eswd.eu/cgi-bin/eswd.cgi
+2025-02-18 11:51:29,532 - ERROR - Timeout on attempt 1 to load page
+2025-02-18 11:51:29,806 - INFO - Retrying in 10 seconds...
+2025-02-18 11:51:40,007 - INFO - ====== WebDriver manager ======
+2025-02-18 11:51:40,134 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18 11:51:40,245 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18 11:51:40,350 - INFO - Driver [/Users/macbook/.wdm/drivers/chromedriver/mac64/133.0.6943.98/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-18 11:51:41,282 - INFO - WebDriver setup successful
+2025-02-18 11:51:41,718 - INFO - Attempt 2 to navigate to https://eswd.eu/cgi-bin/eswd.cgi
+2025-02-18 11:52:22,084 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/9b9d02d672033937b921e231ad9fa013
+2025-02-18 11:52:22,085 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x119d82fd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/9b9d02d672033937b921e231ad9fa013
+2025-02-18 11:52:22,086 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x119d1f5c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/9b9d02d672033937b921e231ad9fa013

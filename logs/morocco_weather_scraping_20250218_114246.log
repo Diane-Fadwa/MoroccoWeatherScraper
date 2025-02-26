@@ -1,0 +1,27 @@
+2025-02-18 11:42:46,184 - INFO - ====== WebDriver manager ======
+2025-02-18 11:42:46,636 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18 11:42:46,754 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18 11:42:46,859 - INFO - Driver [/Users/macbook/.wdm/drivers/chromedriver/mac64/133.0.6943.98/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-18 11:42:48,657 - INFO - WebDriver setup successful
+2025-02-18 11:42:48,657 - INFO - Attempt 1 to navigate to https://eswd.eu/cgi-bin/eswd.cgi
+2025-02-18 11:43:20,343 - ERROR - Timeout on attempt 1 to load page
+2025-02-18 11:43:20,344 - INFO - Retrying in 5 seconds...
+2025-02-18 11:43:25,961 - INFO - Attempt 2 to navigate to https://eswd.eu/cgi-bin/eswd.cgi
+2025-02-18 11:43:56,874 - ERROR - Timeout on attempt 2 to load page
+2025-02-18 11:43:56,875 - INFO - Retrying in 5 seconds...
+2025-02-18 11:44:02,501 - INFO - Attempt 3 to navigate to https://eswd.eu/cgi-bin/eswd.cgi
+2025-02-18 11:44:33,465 - ERROR - Timeout on attempt 3 to load page
+2025-02-18 11:44:33,465 - ERROR - All navigation attempts failed
+2025-02-18 11:44:38,470 - INFO - Attempt 1 to navigate to https://eswd.eu/cgi-bin/eswd.cgi
+2025-02-18 11:45:09,554 - ERROR - Timeout on attempt 1 to load page
+2025-02-18 11:45:09,555 - INFO - Retrying in 5 seconds...
+2025-02-18 11:45:15,200 - INFO - Attempt 2 to navigate to https://eswd.eu/cgi-bin/eswd.cgi
+2025-02-18 11:45:46,137 - ERROR - Timeout on attempt 2 to load page
+2025-02-18 11:45:46,138 - INFO - Retrying in 5 seconds...
+2025-02-18 11:45:51,676 - INFO - Attempt 3 to navigate to https://eswd.eu/cgi-bin/eswd.cgi
+2025-02-18 11:46:22,601 - ERROR - Timeout on attempt 3 to load page
+2025-02-18 11:46:22,602 - ERROR - All navigation attempts failed
+2025-02-18 11:46:27,605 - INFO - Attempt 1 to navigate to https://eswd.eu/cgi-bin/eswd.cgi
+2025-02-18 11:46:49,782 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/ce0863b09a889dfbcf70c6175742ddce
+2025-02-18 11:46:49,784 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x108869e50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/ce0863b09a889dfbcf70c6175742ddce
+2025-02-18 11:46:49,785 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10886a210>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/ce0863b09a889dfbcf70c6175742ddce
